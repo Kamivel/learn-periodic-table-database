@@ -113,3 +113,5 @@ git commit -m "fix: fixed formatting"
 git add .
 git commit -m "fix: more fixed formatting"
 git log --oneline
+q
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
